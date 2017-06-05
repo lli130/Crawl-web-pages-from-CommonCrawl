@@ -2,7 +2,8 @@
 """
 Created on Mon Jan 23 18:29:31 2017
 
-@author: SAM
+@author: Liyi Li
+Fetch URLs from CommonCrawl index collections
 """
 
 files_names = 'D:/lly/UN-search engine/Science_Technology_Search-ICT4SD_tools/Science_Technology_Search-ICT4SD_tools/prefix-https%3A--ocw.mit.edu-courses-0'
@@ -22,7 +23,7 @@ def process_file (file_path):    #This function handles each file. It creates a 
     allDataFrames = []
     with open(file_path) as f:
         for line in f:
-            lineDataFrame = pd.DataFrame(json.loads(line) , index=[0])
+            lineDataFrame = pd.DataFrame(json.loads(line) , index=[0]) # a way to transfer dictionary-like JSON file to dataframe
             allDataFrames.append(lineDataFrame)
     result = pd.concat(allDataFrames)
     return result
