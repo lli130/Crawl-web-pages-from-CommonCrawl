@@ -3,7 +3,7 @@
 This repository is to retrieve text data of web pages from Common Crawl.
 ### Procedures 
 1. Predefine:
-- Define the number of index
+- Define the number of index  
 Currently available index collections are listed: [CommonCrawl_Index Collections](http://index.commoncrawl.org/). It will be upodated periodically.
 - Define targeting domains
 2. Settle down Python environment
