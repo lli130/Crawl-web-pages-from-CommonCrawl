@@ -2,7 +2,7 @@
 
 ## Getting a list of urls from a dictionary of internet domains
 """
-Created on Sat Jan 21 10:10:25 2017
+Created on Sat Jan 21 10:10:25 2017 
 
 @author: Liyi Li
 
