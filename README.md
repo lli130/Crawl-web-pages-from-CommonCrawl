@@ -10,5 +10,7 @@ Currently available index collections are listed: [CommonCrawl_Index Collections
 - [Python environment](https://github.com/lli130/Tensor-Flow)
 - [git clone crawl functions](https://github.com/lli130/Common-Crawl/tree/cdx-index-client)
 3. Fetch URL from specific domains  
-[Fetch URL][https://github.com/lli130/Common-Crawl/blob/master/url_processing.py]
+[Fetch URL][https://github.com/lli130/Common-Crawl/blob/master/url_fetch.py]
+4. Process URL to get WET text data of web pages
+[Process URL][]
 
