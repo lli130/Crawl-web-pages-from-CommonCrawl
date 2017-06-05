@@ -11,6 +11,8 @@ Currently available index collections are listed: [CommonCrawl_Index Collections
 - [git clone crawl functions](https://github.com/lli130/Common-Crawl/tree/cdx-index-client)
 3. Fetch URL from specific domains  
 [Fetch URL][https://github.com/lli130/Common-Crawl/blob/master/url_fetch.py]
-4. Process URL to get WET text data of web pages
-[Process URL][]
+4. Process URL to get WET text data of web pages  
+[Process URL][https://github.com/lli130/Common-Crawl/blob/master/url_processing.py]  
+[Prepare WET path][https://github.com/lli130/Common-Crawl/blob/master/warc3.py]
+
 
